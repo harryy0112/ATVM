@@ -1,12 +1,12 @@
-import ReactDOM from "react-dom/client";
+import React from "react";
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <h1>This is App</h1>
     </div>
   );
-}
+};
 
 export default App;
