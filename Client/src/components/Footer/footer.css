@@ -1,148 +1,86 @@
 .footer {
-    align-items: center;
-    text-align: justify;
-    display: flex;
-    justify-content: center;
+  align-items: center;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-container {
-    margin-top: 100%;
-    display: grid;
-    grid-template-columns: 5fr 1.3fr;
-    align-items: stretch;
+  margin-top: 60%;
+  display: grid;
+  grid-template-columns: 5fr 1.3fr;
+  align-items: center;
+  background-color: #d5ebfe;
 }
 
 .content {
-    margin: 0 50px;
-    width: 87%;
-    font-family: 'Roboto', sans-serif;
+  margin: 0px 60px 0px 60px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
 }
 
-.content>h1 {
-    margin-top: 50px;
-    width: 80%;
-    font-size: 1.7rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.content>h1>span {
-    color: #2388e1  ;
+.content > h1 {
+  margin: 0px 5px 0px 0px;
+  width: 80%;
+  font-size: 1.7rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .cnt {
-    width: 80%;
-}
-
-.menu>ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    color: #070707b3;
-    margin: 1.5rem 55px;
-    font-weight: 600;
-}
-
-.menu>ul a {
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: #000000;
-    font-size: 1.2rem;
-    margin: 10px;
-    transition: all 0.2s ease;
-}
-
-.menu>ul a:hover {
-    color: #2388e1;
-}
-
-.menu>ul>li {
-    margin: 0 1rem;
-}
-
-.social>ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-}
-
-.social i {
-    transition: all 0.2s ease;
-}
-
-.social i:hover {
-    transform: scale(1.2);
+  width: 90%;
 }
 
 .right {
-    display: flex;
-    margin: 2rem 0;
+  display: flex;
+  margin: 2rem 3rem;
 }
 
-.right>img {
-    width: 14rem;
-}
-
-.fa-brands {
-    margin: 0 1.3rem;
-    font-size: 1.5em;
-    color: #000000
+.right > img {
+  width: 10rem;
+  height: 10rem;
 }
 
 .copyright1 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    padding: 0rem 1rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding: 0rem 1rem;
+  background-color: #d5ebfe;
 }
 
 .copyright2 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    padding: 1.5rem 1rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 1rem;
+  background-color: #d5ebfe;
 }
 
 @media (max-width: 650px) {
-    .footer-container {
-        display: revert;
-    }
+  .footer-container {
+    display: revert;
+  }
 
-    .footer-child {
-        align-items: center;
-        justify-content: center;
-        text-align: justify;
-    }
+  .footer-child {
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  }
 
-    .footer {
-        overflow: hidden;
-        flex-direction: column;
-    }
+  .footer {
+    overflow: hidden;
+    flex-direction: column;
+  }
 
-    .content {
-        margin: 0px 60px;
-        font-size: 18px;
-    }
+  .cnt {
+    width: 78%;
+  }
 
-    .content>h1 {
-        font-size: 25px;
-    }
+  .content {
+    margin: 0px 40px;
+    font-size: 20px;
+  }
 
-    .social>ul {
-        font-size: 15px;
-        text-align: center;
-    }
-
-    .menu>ul {
-        text-align: center;
-    }
-
-    .menu>ul>li {
-        margin: 0;
-    }
-
-    .logo-child {
-        display: flex;
-    }
-
-    .fa-brands {
-        margin-top: 1rem;
-    }
+  .content > h1 {
+    margin: 20px 0px 0px 0px;
+    font-size: 25px;
+  }
 }

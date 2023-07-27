@@ -1,169 +1,45 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* navbar */
 header {
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-header a {
-    margin: 1rem;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-header button {
-    /* background-color: #D6E4E5; */
-    color: #ffffff;
-    border: none;
-    font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 nav {
-    position: absolute;
-    z-index: 1000;
-    display: flex;
-    width: 100%;
-    background-color: #051522;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* .logo-name{
-    line-height: 1rem;
-} */
-.logo {
-    color: #ffffff;
-    margin-left: 15px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-}
-
-.logo>img {
-    width: 60px;
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  width: 100%;
+  background-color: #03055a;
 }
 
 .logo-name {
-    width: 60px;
-    padding: 1.2rem;
+  line-height: 1rem;
+  width: 440px;
+  padding: 1rem;
+  margin: 5px 20px 5px 200px;
 }
 
-.regbtn {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    margin-right: 45px;
-    border-radius: 3px;
-    background-color: #ffffff;
-    color: #051522;
-    cursor: pointer;
-    transition: all 0.2s ease;
+.logo {
+  color: #ffffff;
+  margin: 5px 20px 5px 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
-.regbtn:hover {
-    transform: scale(1.05);
+.logo > img {
+  width: 70px;
+  height: 70px;
 }
 
-.regbtn:active {
-    transform: scale(0.95);
-}
-
-.nav-btn {
-    background: transparent;
-    cursor: pointer;
-    display: none;
-}
-
-.links {
-    margin-right: 20px;
-}
-
-.links span {
-    transition: all 0.2s ease;
-}
-
-.links span:hover {
-    color: #d7d7d7;
-}
-
-@media screen and (max-width: 1024px) {
-    .nav-btn {
-        display: revert;
-
-    }
-
-    .nav-open-btn {
-        margin: 15px 20px 10px;
-        font-size: 30px;
-        color: #fff;
-    }
-
-    .resnav {
-        width: 100%;
-        z-index: 100;
-        background-color: #051522
-    }
-
-    ul>a {
-        margin: 10px;
-    }
-
-    header nav {
-        z-index: 100000;
-        position: fixed;
-        top: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 1.5rem;
-        transition: 0.7s;
-        transform: translate(-200vw);
-        background-color: #051522;
-    }
-
-    .links {
-        font-size: 1.5rem;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .regbtn {
-        margin: 0;
-        font-size: 1.5rem;
-        padding: 10px 20px;
-        margin-bottom: 150px;
-    }
-
-    .logo {
-        margin: 0;
-        margin-top: 100px;
-    }
-
-    .responsive_nav {
-        transform: none;
-    }
-
-    .nav-close-btn {
-        color: #ffffff;
-        background-color: #051522;
-        position: absolute;
-        top: 1.2rem;
-        right: 1.2rem;
-    }
+@media screen and (max-width: 360px) {
 }

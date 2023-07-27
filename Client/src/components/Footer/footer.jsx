@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import footerLogo from "../../assets/logo.png";
+import footerLogo1 from "../../assets/logo.png";
+import footerLogo2 from "../../assets/CRISlogo.png";
 import "./footer.css";
 
 const Footer = () => {
@@ -22,79 +23,19 @@ const Footer = () => {
                 functional areas of the Indian Railways.
               </p>
             </div>
-            <div className="menu">
-              <ul>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="/?v=domains">Domains</Link>
-                </li>
-                <li>
-                  <Link to="/team">Team</Link>
-                </li>
-                <li>
-                  <Link to="/event">Events</Link>
-                </li>
-              </ul>
-            </div>
           </div>
           <div className="right footer-child">
-            <img src={footerLogo} alt="logo" />
+            <img src={footerLogo1} alt="logo" />
+            <img src={footerLogo2} alt="logo" />
           </div>
         </div>
       </div>
-
-      <div className="social">
-        <ul>
-          <li>
-            <a href="mailto:bdcoe@akgec.ac.in" target="_blank" rel="noreferrer">
-              <i className="fa-brands fa-google"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/school/big-data-centre-of-excellence/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-brands fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/@bigdatacentreofexcellence3334"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-brands fa-youtube"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/bdcoe/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-brands fa-square-instagram"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/Big-Data-Center-of-Excellence"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-brands fa-github"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
       <div className="copyright1">
-      This Website Belongs To Centre For Railway Information Systems, An Organization Of The Ministry Of Railways.
+        This Website Belongs To Centre For Railway Information Systems, An
+        Organization Of The Ministry Of Railways.
       </div>
       <div className="copyright2">
-        Copyright ©️ {new Date().getFullYear()} - CENTRE FOR RAILWAY INFORMATION SYSTEMS
+        Copyright ©️ {new Date().getFullYear()} - CRIS
       </div>
     </>
   );
