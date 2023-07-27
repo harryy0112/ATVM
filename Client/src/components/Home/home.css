@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+.home {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.img > img {
+  width: 700px;
+  height: 450px;
+}
+
+@media screen and (max-width: 850px) {
+  .home {
+    align-items: flex-end;
+  }
+
+  .right {
+    width: 100%;
+  }
+}

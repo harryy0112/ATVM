@@ -1,14 +1,13 @@
 import React from "react";
-import Home from "./pages/Home";
+import Front from "./pages/Front";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
 
 const App = () => {
   return (
     <>
       <Router>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/" element={<Front />} />
         </Routes>
       </Router>
     </>
