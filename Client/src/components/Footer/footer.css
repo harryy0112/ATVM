@@ -1,3 +1,7 @@
+.movingText {
+  display: flex;
+}
+
 .footer {
   align-items: center;
   text-align: justify;
@@ -6,17 +10,27 @@
 }
 
 .footer-container {
-  margin-top: 10%;
   display: grid;
   grid-template-columns: 5fr 1.3fr;
   align-items: center;
-  background-color: #d5ebfe;
+  color: white;
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .content {
   margin: 0px 60px 0px 60px;
   width: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .content > h1 {
@@ -42,16 +56,42 @@
 
 .copyright1 {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 0rem 1rem;
-  background-color: #d5ebfe;
+  color: white;
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .copyright2 {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  ffont-family: "Montserrat", sans-serif;
   padding: 0.5rem 1rem;
-  background-color: #d5ebfe;
+  color: white;
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+marquee {
+  font-size: 28px;
 }
 
 @media (max-width: 650px) {

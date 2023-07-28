@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import footerLogo1 from "../../assets/logo.png";
 import footerLogo2 from "../../assets/CRISlogo.png";
 import "./footer.css";
@@ -7,6 +6,26 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
+      <div className="movingText">
+        <marquee direction="left">
+          <span style={{ color: "purple" }}>Cyber Crime Helpline :</span>
+          &nbsp;&nbsp;
+          <span style={{ color: "red" }}>1930</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span style={{ color: "blue" }}>www.cybercrime.gov.in</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span style={{ color: "purple" }}>Voter Helpline :</span>
+          &nbsp;&nbsp;
+          <span style={{ color: "red" }}>1950</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span style={{ color: "blue" }}>www.nvsp.gov.in</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </marquee>
+      </div>
       <div className="footer">
         <div className="footer-container">
           <div className="left footer-child">

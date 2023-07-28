@@ -1,15 +1,99 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
 .home {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   align-items: center;
   text-align: center;
 }
 
-.img > img {
-  width: 700px;
-  height: 450px;
+.down {
+  margin: 5px 450px;
+}
+
+h2 {
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  padding: 1rem;
+  margin-left: 60px;
+}
+
+.left > img {
+  margin: 8px 0px 0px 60px;
+  width: 650px;
+  height: 400px;
+  border-radius: 2rem;
+}
+
+.regbtn {
+  font-family: "Montserrat", sans-serif;
+  padding: 1.5rem 8rem;
+  font-size: 1.5rem;
+  margin: 10px;
+  background: #0575e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #021b79,
+    #0575e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #021b79,
+    #0575e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  border-radius: 5rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.Buttons-sec1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0rem;
+  flex-wrap: wrap;
+}
+.Buttons-sec2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0rem;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  background: #0575e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #021b79,
+    #0575e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #021b79,
+    #0575e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  padding: 20px 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  border: 2px solid black;
+  margin: 50px 70px;
+  width: 40%;
+  border-radius: 28px;
+}
+
+.container button {
+  display: flex;
+  width: 90%;
+  margin: 20px 20px;
+  justify-content: center;
+  border: none;
 }
 
 @media screen and (max-width: 850px) {
