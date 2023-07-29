@@ -28,18 +28,17 @@ nav {
 }
 
 .logo-name {
-  line-height: 1rem;
   width: 440px;
   padding: 1rem;
-  margin: 5px 190px 5px 220px;
+  margin: 5px 120px 5px 150px;
 }
 
 .logo {
   color: #ffffff;
-  margin: 10px 20px 10px 20px;
+  margin: 10px 20px 10px 60px;
   display: flex;
-  align-items: center;
   font-size: 1.5rem;
+  justify-content: center;
 }
 
 .logo > img {
@@ -51,5 +50,12 @@ nav {
 @media screen and (max-width: 1024px) {
   .logo {
     flex-direction: column;
+    display: inline-table;
+    margin-left: 5rem;
+  }
+
+  .logo-name {
+    margin: 0;
+    text-align: center;
   }
 }

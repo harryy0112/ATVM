@@ -140,7 +140,7 @@
   .fieldset {
     display: flex;
     flex-direction: column;
-    font-size: x-small;
+    font-size: medium;
     width: 220%;
   }
 
