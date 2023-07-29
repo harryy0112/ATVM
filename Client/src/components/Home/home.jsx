@@ -72,11 +72,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="down">
-        <div className="option">
-          <h2>Please Select Ticket Type</h2>
-        </div>
-      </div>
       <div className="Buttons-sec1">
         <button className="regbtn" onClick={handleRegister}>
           Renew Season Ticket

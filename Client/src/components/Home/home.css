@@ -17,13 +17,6 @@
   margin: 5px 450px;
 }
 
-h2 {
-  color: rgb(255, 0, 0);
-  font-size: 20px;
-  padding: 1rem;
-  margin-left: 60px;
-}
-
 .regbtn {
   font-family: "Montserrat", sans-serif;
   padding: 1.5rem 8rem;
@@ -50,13 +43,13 @@ h2 {
 .Buttons-sec1 {
   display: flex;
   justify-content: space-around;
-  margin: 0rem;
+  margin: 1rem;
   flex-wrap: wrap;
 }
 .Buttons-sec2 {
   display: flex;
   justify-content: space-around;
-  margin: 0rem;
+  margin: 1rem;
 }
 
 .btn {
@@ -125,5 +118,41 @@ h2 {
   .regbtn {
     box-sizing: content-box;
     display: revert;
+    padding: 1.5rem;
+    align-items: center;
+  }
+  .Buttons-sec2,
+  .Buttons-sec1 {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    flex-wrap: nowrap;
+  }
+
+  .container {
+    margin-left: 0;
+  }
+
+  .container button {
+    width: 75%;
+  }
+
+  .fieldset {
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+    width: 220%;
+  }
+
+  .btn {
+    box-sizing: content-box;
+    display: revert;
+    padding: 1.5rem;
+    align-items: center;
+  }
+
+  .main-slide {
+    margin: 1rem;
+    width: 85%;
   }
 }
