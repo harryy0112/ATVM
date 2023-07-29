@@ -46,7 +46,7 @@
 
 .right {
   display: flex;
-  margin: 2rem 3rem;
+  margin: 1rem;
 }
 
 .right > img {
@@ -74,7 +74,7 @@
 
 .copyright2 {
   text-align: center;
-  ffont-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 0.5rem 1rem;
   color: white;
   background: #00d2ff; /* fallback for old browsers */
@@ -94,7 +94,7 @@ marquee {
   font-size: 28px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1024px) {
   .footer-container {
     display: revert;
   }
@@ -122,5 +122,9 @@ marquee {
   .content > h1 {
     margin: 20px 0px 0px 0px;
     font-size: 25px;
+  }
+
+  .right {
+    width: 90%;
   }
 }

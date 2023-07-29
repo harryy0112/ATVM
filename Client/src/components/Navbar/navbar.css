@@ -31,7 +31,7 @@ nav {
   line-height: 1rem;
   width: 440px;
   padding: 1rem;
-  margin: 5px 150px 5px 220px;
+  margin: 5px 190px 5px 220px;
 }
 
 .logo {
@@ -48,5 +48,8 @@ nav {
   margin: 1px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 1024px) {
+  .logo {
+    flex-direction: column;
+  }
 }
