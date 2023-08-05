@@ -82,15 +82,15 @@ const Home = () => {
       </div>
       <div className="Buttons-sec1">
         <button className="regbtn" onClick={handleRegister}>
-          Platform Ticket &nbsp;
+          Print Mobile Ticket
         </button>
         <button className="regbtn" onClick={handleRegister}>
-          Smart Card Detail
+          Platform Ticket
         </button>
       </div>
       <div className="Buttons-sec2">
         <button className="regbtn" onClick={handleRegister}>
-          Platform Ticket
+          Smart Card Detail
         </button>
       </div>
     </div>
