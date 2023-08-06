@@ -4,11 +4,11 @@ import Mapp from "./pages/MainOptions/usingMap";
 import Fast from "./pages/MainOptions/fastBooking";
 import Other from "./pages/MainOptions/allOtherStations";
 import Check from "./pages/MainOptions/checkTrainAvail";
-// import renew from "./pages/OtherOptions/renewSeasonTicket";
-// import rechargeSmart from "./pages/OtherOptions/rechargeSmartCard";
-// import printTicket from "./pages/OtherOptions/printMobileTicket";
-// import platTicket from "./pages/OtherOptions/platformTicket";
-// import sCardDetails from "./pages/OtherOptions/smartCardDetails";
+import Renew from "./pages/OtherOptions/renewSeasonTicket";
+import RechargeSmart from "./pages/OtherOptions/rechargeSmartCard";
+import PrintTicket from "./pages/OtherOptions/printMobileTicket";
+import PlatTicket from "./pages/OtherOptions/platformTicket";
+import SDetails from "./pages/OtherOptions/smartCardDetails";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -21,11 +21,11 @@ const App = () => {
           <Route exact path="/fastBook" element={<Fast />} />
           <Route exact path="/otherStations" element={<Other />} />
           <Route exact path="/checkAvail" element={<Check />} />
-          <Route exact path="/renew" element={<renew />} />
-          <Route exact path="/rechargeSmart" element={<rechargeSmart />} />
-          <Route exact path="/printTicket" element={<printTicket />} />
-          <Route exact path="/platTicket" element={<platTicket />} />
-          <Route exact path="/sCardDetails" element={<sCardDetails />} />
+          <Route exact path="/renew" element={<Renew />} />
+          <Route exact path="/rechargeSmart" element={<RechargeSmart />} />
+          <Route exact path="/printTicket" element={<PrintTicket />} />
+          <Route exact path="/platTicket" element={<PlatTicket />} />
+          <Route exact path="/sCardDetails" element={<SDetails />} />
         </Routes>
       </Router>
     </>

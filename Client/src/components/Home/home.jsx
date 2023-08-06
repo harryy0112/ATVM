@@ -147,7 +147,7 @@ const Home = () => {
             <Link
               style={{ textDecoration: "none" }}
               onClick={redirect}
-              to="/platTicket"
+              to="/sCardDetails"
             >
               <span style={{ color: "white" }}>Smart Card Details</span>
             </Link>
