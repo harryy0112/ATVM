@@ -1,5 +1,5 @@
-import Navbar from "../../components/Navbar/navbar";
-import Footer from "../../components/Footer/footer";
+import Navbar from "../../../components/Navbar/navbar";
+import Footer from "../../../components/Footer/footer";
 import "./usingMap.css";
 
 const usingMap = () => {

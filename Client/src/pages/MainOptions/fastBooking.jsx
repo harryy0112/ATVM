@@ -7,7 +7,7 @@ const fastBooking = () => {
     <>
       <Navbar />
       <div className="ComingSoon">
-        <div className="atvs">Using Map</div>
+        <div className="atvs">Fast booking</div>
         <div className="soon">Coming Soon</div>
       </div>
       <Footer />

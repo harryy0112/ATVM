@@ -7,7 +7,7 @@ const checkTrainAvail = () => {
     <>
       <Navbar />
       <div className="ComingSoon">
-        <div className="atvs">Using Map</div>
+        <div className="atvs">Check Train Availability</div>
         <div className="soon">Coming Soon</div>
       </div>
       <Footer />
