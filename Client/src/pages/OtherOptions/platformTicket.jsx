@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/navbar";
 import Footer from "../../components/Footer/footer";
 import "./platformTicket.css";
@@ -5,6 +6,10 @@ import "./platformTicket.css";
 const platformTicket = () => {
   const back = () => {
     alert("Transaction Cancelled");
+  };
+
+  const pay = () => {
+    alert("Coming Soon");
   };
   return (
     <>
@@ -16,14 +21,17 @@ const platformTicket = () => {
               <h5>Please Select Number of Passengers for Platform Ticket</h5>
             </div>
             <div className="btn-padding">
-              <button className="btn">1</button>
-              <button className="btn">2</button>
-              <button className="btn">3</button>
-              <button className="btn">4</button>
+              <button className="btn-1">1</button>
+              <button className="btn-1">2</button>
+              <button className="btn-1">3</button>
+              <button className="btn-1">4</button>
             </div>
             <div className="cancel-btn-padding">
               <button className="cancel-btn" onClick={back}>
                 Cancel Transaction
+              </button>
+              <button className="pay-btn" onClick={pay}>
+                Pay Now
               </button>
             </div>
           </div>

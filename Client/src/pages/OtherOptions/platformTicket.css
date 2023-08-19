@@ -28,7 +28,7 @@
   height: 24rem;
 }
 
-.btn {
+.btn-1 {
   font-family: "poppins", sans-serif;
   background: #0575e6; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -66,10 +66,25 @@
 
 .cancel-btn-padding {
   margin-top: 6rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .btn-padding {
   margin-top: 3rem;
+}
+
+.pay-btn {
+  font-family: "poppins", sans-serif;
+  background: #29d02f;
+  color: white;
+  padding: 20px 70px;
+  margin: 0.5rem;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .content {
