@@ -8,7 +8,7 @@ import Renew from "./pages/OtherOptions/renewSeasonTicket";
 import RechargeSmart from "./pages/OtherOptions/rechargeSmartCard";
 import PrintTicket from "./pages/OtherOptions/printMobileTicket";
 import PlatTicket from "./pages/OtherOptions/platformTicket";
-import SDetails from "./pages/OtherOptions/smartCardDetails";
+import SDetails from "./pages/payments/payment";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {

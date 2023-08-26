@@ -21,10 +21,10 @@ const platformTicket = () => {
               <h5>Please Select Number of Passengers for Platform Ticket</h5>
             </div>
             <div className="btn-padding">
-              <button className="btn-1">1</button>
-              <button className="btn-1">2</button>
-              <button className="btn-1">3</button>
-              <button className="btn-1">4</button>
+              <button className="btns">1</button>
+              <button className="btns">2</button>
+              <button className="btns">3</button>
+              <button className="btns">4</button>
             </div>
             <div className="cancel-btn-padding">
               <button className="cancel-btn" onClick={back}>

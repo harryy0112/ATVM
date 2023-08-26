@@ -14,7 +14,7 @@
 
 .card {
   width: 22rem;
-  height: 24rem;
+  height: 22rem;
   margin: 1.5rem;
   padding: 1.5rem;
   text-align: center;
@@ -28,7 +28,7 @@
   height: 24rem;
 }
 
-.btn-1 {
+.btns {
   font-family: "poppins", sans-serif;
   background: #0575e6; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -65,19 +65,14 @@
 }
 
 .cancel-btn-padding {
-  margin-top: 6rem;
-  display: flex;
-  justify-content: space-around;
-}
-
-.btn-padding {
-  margin-top: 3rem;
+  margin-top: 8rem;
 }
 
 .pay-btn {
   font-family: "poppins", sans-serif;
   background: #29d02f;
   color: white;
+  width: 18.7rem;
   padding: 20px 70px;
   margin: 0.5rem;
   border-radius: 10px;
