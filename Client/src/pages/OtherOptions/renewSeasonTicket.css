@@ -1,34 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
-.ComingSoon {
-  height: 100vh;
+.details {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: "poppins", sans-serif;
   justify-content: center;
-  color: #000000;
-  font-family: monospace;
+  align-items: center;
+  margin: 1rem;
 }
 
-.ComingSoon > img {
-  height: 3rem;
+.left-smartcard {
+  margin: 0.5rem;
+  width: 25rem;
+  display: grid;
+  justify-items: center;
 }
 
-.atvs {
-  font-size: 2rem;
-  margin: 0.5rem 0;
+.right-smartcard {
+  margin: 0.5rem;
+  display: grid;
+  justify-items: center;
 }
 
-.soon {
-  font-size: 1.5rem;
-  margin: 1rem 0;
-}
-
-@media screen and (max-width: 850px) {
-  .atvs {
-    font-size: 1.2rem;
-  }
-  .soon {
-    font-size: 1rem;
-  }
+.input-smartcard {
+  display: grid;
+  margin: 1rem;
 }
