@@ -1,34 +1,51 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
-.ComingSoon {
-  height: 100vh;
+.main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #000000;
-  font-family: monospace;
+  font-family: "poppins", sans-serif;
 }
 
-.ComingSoon > img {
-  height: 3rem;
+.left {
+  margin: 0.5rem;
 }
 
-.atvs {
-  font-size: 2rem;
-  margin: 0.5rem 0;
+.fields {
+  margin: auto;
+  padding: 1.5rem;
+  display: grid;
+  justify-items: center;
 }
 
-.soon {
-  font-size: 1.5rem;
-  margin: 1rem 0;
+.input {
+  display: grid;
 }
 
-@media screen and (max-width: 850px) {
-  .atvs {
-    font-size: 1.2rem;
-  }
-  .soon {
-    font-size: 1rem;
-  }
+.cancel-btn-mobile {
+  font-family: "poppins", sans-serif;
+  background: #e90e0e;
+  color: white;
+  padding: 12px 15px;
+  margin: 0.5rem;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cancel-btn-padding-mobile {
+  margin-top: 1rem;
+}
+
+.Submit-btn {
+  font-family: "poppins", sans-serif;
+  background: #29d02f;
+  color: white;
+  padding: 12px 30px;
+  margin: 0.5rem;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
