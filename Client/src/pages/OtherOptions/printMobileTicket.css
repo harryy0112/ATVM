@@ -55,3 +55,17 @@
 .help {
   margin: 3.5rem;
 }
+
+@media (max-width: 1024px) {
+  .main {
+    flex-wrap: wrap;
+  }
+
+  .entry {
+    width: 20rem;
+  }
+
+  h5{
+    display: grid;
+  }
+}

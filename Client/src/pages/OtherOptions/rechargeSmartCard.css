@@ -25,3 +25,21 @@
   display: grid;
   margin: 1rem;
 }
+
+@media (max-width: 1024px) {
+  .details {
+    display: block;
+  }
+  .left-smartcard {
+    display: block;
+  }
+
+  .input-smartcard {
+    justify-content: space-between;
+  }
+
+  .cancel-btn-padding-mobile {
+    margin-left: 3.5rem;
+    margin-right: 11.5rem;
+  }
+}

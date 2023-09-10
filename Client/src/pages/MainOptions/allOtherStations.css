@@ -33,7 +33,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.cancel-btn-padding-mobile {
+.cancel-btn-padding-mobile-1 {
   margin-top: 1rem;
 }
 
@@ -48,4 +48,15 @@
   cursor: pointer;
   border: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 1024px) {
+  .cancel-btn-padding-mobile-1 {
+    margin-left: 11.5rem;
+    margin-right: 11.5rem;
+  }
+
+  .fields {
+    justify-content: center;
+  }
 }

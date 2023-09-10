@@ -48,7 +48,7 @@ const allOtherStations = () => {
               <option value="take">AC EMU</option>
             </select>
           </div>
-          <div className="cancel-btn-padding-mobile">
+          <div className="cancel-btn-padding-mobile-1">
             <button className="cancel-btn-mobile">
               <Link style={{ textDecoration: "none" }} to="/">
                 <span style={{ color: "white" }}> Cancel Transaction</span>
