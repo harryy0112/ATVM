@@ -4,13 +4,6 @@ import Footer from "../../components/Footer/footer";
 import "./platformTicket.css";
 
 const platformTicket = () => {
-  const back = () => {
-    alert("Transaction Cancelled");
-  };
-
-  const pay = () => {
-    alert("Coming Soon");
-  };
   return (
     <>
       <Navbar />
@@ -27,11 +20,18 @@ const platformTicket = () => {
               <button className="btns">4</button>
             </div>
             <div className="cancel-btn-padding">
-              <button className="cancel-btn" onClick={back}>
-                Cancel Transaction
+              <button className="cancel-btn">
+                <Link style={{ textDecoration: "none" }} to="/">
+                  <span style={{ color: "white" }}> Cancel Transaction</span>
+                </Link>
               </button>
-              <button className="pay-btn" onClick={pay}>
-                Pay Now
+              <button className="pay-btn">
+                <Link
+                  style={{ textDecoration: "none" }}
+                  to="/platTicket/payments"
+                >
+                  <span style={{ color: "white" }}>Pay Now</span>
+                </Link>
               </button>
             </div>
           </div>

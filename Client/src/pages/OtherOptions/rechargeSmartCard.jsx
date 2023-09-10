@@ -1,15 +1,9 @@
 import Navbar from "../../components/Navbar/navbar";
 import Footer from "../../components/Footer/footer";
+import { Link } from "react-router-dom";
 import "./rechargeSmartCard.css";
 
 const rechargeSmartCard = () => {
-  const back = () => {
-    alert("Transaction Cancelled");
-  };
-
-  const Submit = () => {
-    alert("Coming Soon");
-  };
   return (
     <>
       <Navbar />
@@ -23,11 +17,18 @@ const rechargeSmartCard = () => {
             Enter the Amount to Add :<input type="text" />
           </div>
           <div className="cancel-btn-padding-mobile">
-            <button className="cancel-btn-mobile" onClick={back}>
-              Cancel Transaction
+            <button className="cancel-btn-mobile">
+              <Link style={{ textDecoration: "none" }} to="/">
+                <span style={{ color: "white" }}> Cancel Transaction</span>
+              </Link>
             </button>
-            <button className="Submit-btn" onClick={Submit}>
-              ADD Now
+            <button className="Submit-btn">
+              <Link
+                style={{ textDecoration: "none" }}
+                to="/rechargeSmart/payments"
+              >
+                <span style={{ color: "white" }}>ADD Now</span>
+              </Link>
             </button>
           </div>
         </div>

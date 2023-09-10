@@ -1,15 +1,9 @@
 import Navbar from "../../components/Navbar/navbar";
 import Footer from "../../components/Footer/footer";
+import { Link } from "react-router-dom";
 import "./SmartCardDetails.css";
 
 const sCardDetails = () => {
-  const back = () => {
-    alert("Transaction Cancelled");
-  };
-
-  const Submit = () => {
-    alert("Coming Soon");w
-  };
   return (
     <>
       <Navbar />
@@ -23,11 +17,18 @@ const sCardDetails = () => {
               SMARTCARD ID : <input type="text" />
             </div>
             <div className="cancel-btn-padding-mobile">
-              <button className="cancel-btn-mobile" onClick={back}>
-                Cancel Transaction
+              <button className="cancel-btn-mobile">
+                <Link style={{ textDecoration: "none" }} to="/">
+                  <span style={{ color: "white" }}> Cancel Transaction</span>
+                </Link>
               </button>
-              <button className="Submit-btn" onClick={Submit}>
-                Submit Now
+              <button className="Submit-btn">
+                <Link
+                  style={{ textDecoration: "none" }}
+                  to="/sCardDetails/payments"
+                >
+                  <span style={{ color: "white" }}>Submit Now</span>
+                </Link>
               </button>
             </div>
           </div>

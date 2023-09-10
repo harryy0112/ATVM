@@ -1,12 +1,9 @@
 import Navbar from "../../components/Navbar/navbar";
 import Footer from "../../components/Footer/footer";
+import { Link } from "react-router-dom";
 import "./printMobileTicket.css";
 
 const printMobileTicket = () => {
-  const back = () => {
-    alert("Transaction Cancelled");
-  };
-
   const Submit = () => {
     alert("Coming Soon");
   };
@@ -24,8 +21,10 @@ const printMobileTicket = () => {
               BOOKING ID : <input type="text" />
             </div>
             <div className="cancel-btn-padding-mobile">
-              <button className="cancel-btn-mobile" onClick={back}>
-                Cancel Transaction
+              <button className="cancel-btn-mobile">
+                <Link style={{ textDecoration: "none" }} to="/">
+                  <span style={{ color: "white" }}> Cancel Transaction</span>
+                </Link>
               </button>
               <button className="Submit-btn" onClick={Submit}>
                 Submit Now
